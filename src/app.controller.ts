@@ -25,7 +25,7 @@ export class AppController {
     @Body() body: { message: string },
   ) {
     const response = await axios.post(
-      'https://commute-ai-demo.onrender.com/chat',
+      'https://commute-ai-demo-1.onrender.com',
       {
         message: body.message,
       },
